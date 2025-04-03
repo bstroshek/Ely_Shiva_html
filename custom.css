@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Items";
+  src: url("/dist/fonts/Items-Light.woff2") format("woff2"), url("/dist/fonts/Items-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Universal Sans Display 380";
+  src: url("/dist/fonts/UniversalSansDisplay-380.woff2") format("woff2"), url("/dist/fonts/UniversalSansDisplay-380.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  position: relative;
+  font-family: "Items", serif;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+svg {
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+}
+
+.font-main {
+  font-family: "Items", serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-accent {
+  font-family: "Universal Sans Display 380", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 19px;
+  font-family: "Universal Sans Display 380", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: capitalize;
+  background: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.btn:hover {
+  border: 1px solid #000;
+}
+.btn-white {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+.btn-white:hover {
+  border: 1px solid #ffffff;
+}
+.btn-black {
+  color: #000000;
+}
+
+.swiper-slide.custom-slide {
+  width: 84% !important;
+}
+
+@media (min-width: 640px) {
+  .swiper-slide.custom-slide {
+    width: 60% !important;
+  }
+}
+@media (min-width: 768px) {
+  .swiper-slide.custom-slide {
+    width: 40% !important;
+  }
+}
+@media (min-width: 1024px) {
+  .swiper-slide.custom-slide {
+    width: 33.33% !important;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
